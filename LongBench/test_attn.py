@@ -60,7 +60,7 @@ def run_inference(rank, args, model_path, model_name, data_chunk, out_path, chun
         model_inputs = tokenizer(text, return_tensors="pt").to(device)
         pred = model.generate(
             **model_inputs,
-            max_new_tokens=8192,
+            max_new_tokens=16384,
             cache_implementation="static",
             num_beams=1,
             do_sample=True,

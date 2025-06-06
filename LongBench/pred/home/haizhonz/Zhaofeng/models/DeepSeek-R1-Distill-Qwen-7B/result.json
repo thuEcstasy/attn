@@ -1,0 +1,8 @@
+{
+    "qasper-full.jsonl": 21.16,
+    "qasper-512.jsonl": 15.83,
+    "qasper-1024.jsonl": 20.72,
+    "qasper-2048.jsonl": 19.65,
+    "qasper-4096.jsonl": 19.31,
+    "narrativeqa-full.jsonl": 11.0
+}
